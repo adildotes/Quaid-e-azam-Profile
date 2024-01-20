@@ -62,8 +62,13 @@ ul>li>a>img {
 button {
     background-color: #f609b3;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid #df02a0;
 
+}
+
+button:hover{
+    background-color: #ff31c5;
+    border: dotted 2px white;
 }
 
 button>a {
@@ -75,6 +80,7 @@ button>a {
     display: block;
     margin: auto;
     padding-top: 20px;
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
 }
