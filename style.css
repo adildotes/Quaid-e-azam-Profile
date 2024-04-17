@@ -22,8 +22,6 @@ body {
 
 }
 
-
-
 .title {
     text-align: center;
     text-transform: uppercase;
@@ -34,10 +32,6 @@ body {
 
 .paragraph {
     text-align: center;
-    /* border: 3px solid brown; */
-    /* width: 500px; */
-    /* margin: auto; */
-
 }
 
 ul {
@@ -83,4 +77,28 @@ button>a {
     width: 50%;
     height: 50%;
     border-radius: 15px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .socialimgs {
+        position: relative;
+        right: 20px;
+        /* width: 30%; */
+    }
+    .socialimgs img {
+        width: 20px;
+        height: 20px;
+    }
+    .btn-align {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        gap: 10px;
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-top: ;
+    }
 }
